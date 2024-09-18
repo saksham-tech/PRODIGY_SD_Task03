@@ -33,7 +33,7 @@ body {
     background-color:#1E201E;
     width: 550px;
     height: 90vh;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     overflow-x: hidden;
     
@@ -122,6 +122,10 @@ body {
   left: 75%;
   display: flex;
   translate: 12px;
+  color: white;
+  font-size: 85%;
+  
+  
   
   
   
@@ -142,9 +146,49 @@ body {
     
    
 }
-#g{
+.cross{
+    color: white;
+}
+.form-control{
+    height: 35px;
+}
+#btnc{
+    background-color: #000000;
+    color: white;
+    border: none;
+}
+#btnc:hover{
+    background-image: linear-gradient(42deg, #5b5757 0%, #ada6a2 46%, #ffffff 100%);
+    
+    border: none;
     color: #050801;
 }
+#btns{
+    background-color: #ef3535;
+    border: none;
+}
+#btns:hover{
+    background-image: linear-gradient(42deg, #ff0000 0%, #ff6200 46%, #dbad14 100%);
+    
+    border: none;
+    color: #050801;
+}
+#g{
+    color: #ffffff;
+    background-color:#1E201E ;
+    
+    
+}
+#exampleModalLabel{
+    background-image: linear-gradient(42deg, #ff0000 0%, #ff6200 46%, #dbad14 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 150%;
+    
+    
+    
+}
+
 
 #hello:hover{
     background-image: linear-gradient(42deg, #ff0000 0%, #ff6200 46%, #dbad14 100%);
@@ -154,9 +198,9 @@ body {
   
 }
 #but:hover{
-    background-image: linear-gradient(42deg, #ff9500 0%, #ffb700 46%, #dbca14 100%);
+    background-image: linear-gradient(90deg, #ff2f00 0%, #ff6200 46%, #dbca14 100%);
     border: none;
-    color: #050801;
+    color: #000000;
     
     
     
@@ -176,6 +220,7 @@ body {
     background-image: linear-gradient(42deg, #ff0000 0%, #ff6200 46%, #dbad14 100%);
     border: none;
     color: #050801;
+    
    
     
 }
@@ -195,5 +240,42 @@ body {
     border: 1px black;
 
 }
+#cross2{
+    color: white;
+}
+.form-control{
+    height: 35px;
+}
+#btnc1{
+    background-color: #000000;
+    color: white;
+    border: none;
+}
+#btsnc1{
+    background-color: #000000;
+    color: white;
+    border: none;
+}
+#btsnc1:hover{
+    background-image: linear-gradient(42deg, #5b5757 0%, #ada6a2 46%, #ffffff 100%);
+    
+    border: none;
+    color: #050801;
+}
+#btsns1{
+    background-color: #ef3535;
+    border: none;
+}
+#btsns1:hover{
+    background-image: linear-gradient(42deg, #ff0000 0%, #ff6200 46%, #dbad14 100%);
+    
+    border: none;
+    color: #050801;
+}
+#uc{
+    color: #ffffff;
+    background-color:#1E201E ;
+    
+    
+}
 
- /* */ 
